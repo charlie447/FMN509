@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/discover/discover",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "FMN509",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#000000"
+  },
+  "tabBar": {
+    "color": "white",
+    "selecteColor":"red",
+    "backgroundColor": "rgba(0,0,0,0.90)",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/bar_home_black.png",
+        "selectedIconPath": "images/bar_home.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "iconPath": "images/bar_explore_black.png",
+        "selectedIconPath": "images/bar_explore.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "iconPath": "images/bar_mine_black.png",
+        "selectedIconPath": "images/bar_mine.png"
+      }
+    ]
+  }
+}

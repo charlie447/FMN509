@@ -1,0 +1,10 @@
+<!--index.wxml-->
+
+<view class="section">
+  <view wx:for="{{image_list}}">
+    <image src='{{item}}' class="main-image"
+      style="width:{{systemInfo.windowWidth-20}}px;" mode='aspectFit'>
+    </image>
+  </view>
+</view>
+

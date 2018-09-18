@@ -1,0 +1,11 @@
+
+
+.section{
+  width: 100%;
+  padding: 0 10px;
+}
+
+.main-image{
+    display: flex;
+    margin-bottom: 10px;
+}
