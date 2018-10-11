@@ -1,8 +1,8 @@
 {
-	"description": "Project configuration file",
-	"packOptions": {
-		"ignore": []
-	},
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
@@ -10,30 +10,7 @@
 		"minified": true,
 		"newFeature": true
 	},
-	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
 	"appid": "wxadece96680ab1ed4",
-	"projectname": "FMN509",
-	"debugOptions": {
-		"hidedInDevtools": []
-	},
-	"isGameTourist": false,
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": -1,
-			"list": []
-		}
-	}
+	"projectname": "test",
+	"condition": {}
 }

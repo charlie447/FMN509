@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view>
+  <view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px" style='height:200px'>
+        <block wx:for="{{swiper_imgs}}" wx:key="*this">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" style='width:100%;height:100%' mode='aspectFill' />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+</view>
+
+<view class="section">
+  <view wx:for="{{image_list}}" style='position:relative'>
+    <image src='{{item}}' class="main-image"
+      style="width:{{systemInfo.windowWidth}}px;height: {{(systemInfo.windowWidth-20)*0.56}}px;" mode='aspectFill'>
+    </image>
+    <view style='position:absolute;z-index:2;left:10px;bottom:10px; color:white;' >
+    Post title
+    </view>
+  </view>
+</view>
+
+
