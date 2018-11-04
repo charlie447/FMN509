@@ -1,5 +1,5 @@
 
-@import "./weui.wxss";
+/* @import "./weui.wxss"; */
 .section{
   width: 100%;
 
@@ -14,3 +14,5 @@
   display: block;
   height: 150px;
 }
+
+page{background-color:#000000;}

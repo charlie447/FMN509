@@ -16,7 +16,7 @@
 </view>
 
 <view class="section">
-  <view wx:for="{{image_list}}" style='position:relative'>
+  <view wx:for="{{image_list}}" style='position:relative' bindtap='toPost'>
     <image src='{{item}}' class="main-image"
       style="width:{{systemInfo.windowWidth}}px;height: {{(systemInfo.windowWidth-20)*0.56}}px;" mode='aspectFill'>
     </image>

@@ -60,6 +60,12 @@ Page({
       url: '../logs/logs'
     })
   },
+  // redirect to post page
+  toPost: function (event){
+    wx.navigateTo({
+      url: '../post/post',
+    })
+  },
   onLoad: function (options) {
     var that = this
     app.getSystemInfo(function (res) {

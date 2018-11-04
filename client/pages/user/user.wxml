@@ -1,2 +1,11 @@
 <!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<view class="container">
+  <image src="/images/discover/image_appreciate@2x.png" class="avatar">
+  </image>
+  <view class="section">
+    <view bindtap="login">
+      <button class="login">登 录</button>
+    </view>
+
+  </view>
+</view>

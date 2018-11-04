@@ -5,7 +5,8 @@
     "pages/discover/discover",
     "pages/setting/setting",
     "pages/user/user",
-    "pages/addCgi/addCgi"
+    "pages/addCgi/addCgi",
+    "pages/post/post"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -31,7 +32,7 @@
         "selectedIconPath": "images/bar_explore.png"
       },
       {
-        "pagePath": "pages/addCgi/addCgi",
+        "pagePath": "pages/user/user",
         "iconPath": "images/bar_mine_black.png",
         "selectedIconPath": "images/bar_mine.png"
       }

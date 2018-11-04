@@ -1,0 +1,8 @@
+<!--pages/post/post.wxml-->
+
+<view class='weui-article'>
+<view class='weui-article__h1'>Article Title</view>
+<view class='weui-article__h3 author'>charlie</view>
+This is the post
+<i class="weui_icon_msg weui_icon_success"></i>
+</view>
